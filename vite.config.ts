@@ -29,9 +29,3 @@ export default defineConfig({
     emptyOutDir: true,
   },
 });
-
-
-export default defineConfig({
-  root: '.', // or 'client' based on Step 1
-})
-
