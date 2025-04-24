@@ -29,3 +29,10 @@ export default defineConfig({
     emptyOutDir: true,
   },
 });
+// vite.config.ts
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  root: '.', // or 'client' based on Step 1
+})
+
